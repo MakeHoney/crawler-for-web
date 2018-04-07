@@ -1,4 +1,4 @@
-class SchoolFood
+module SchoolFood
 	@html; @page
 
 	def initialize 
