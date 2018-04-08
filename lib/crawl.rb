@@ -1,5 +1,5 @@
 require 'open-uri'
-
+module Crawl
 class SchoolFood
 	@html; @page
 
@@ -45,4 +45,5 @@ class SchoolFood
 		puts li.text
 		end		
 	end
+end
 end

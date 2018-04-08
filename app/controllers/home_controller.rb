@@ -1,4 +1,4 @@
-require 'school_food'
+require 'crawl'
 class HomeController < ApplicationController
 	
 	def index
@@ -6,7 +6,7 @@ class HomeController < ApplicationController
 	end
 
 	def crawl
-		@crawler = SchoolFood.new()
+		@crawler = Crawl::SchoolFood.new()
 		@str = @crawler.dormFoodCourt
 	end
 end
