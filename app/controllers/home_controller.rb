@@ -1,3 +1,4 @@
+require 'school_food'
 class HomeController < ApplicationController
 	
 	def index
